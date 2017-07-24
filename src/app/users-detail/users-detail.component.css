@@ -1,0 +1,22 @@
+
+ img {
+  width: 200px;
+  position: absolute;
+  top:300px;  
+  right:60px;
+}
+
+ h4 {
+  position: absolute;
+  top:600px;
+}
+span {
+    position: absolute;
+    top:250px;
+}
+p{
+    position: absolute;
+    top:200px;
+    left:-80px;
+    font-size: 20px;
+}

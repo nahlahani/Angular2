@@ -1,0 +1,26 @@
+div {
+    float: right;
+    margin-top: 6px;
+}
+a {
+    font-size: 26px;
+   cursor: pointer;
+}
+
+img {
+    width: 70px;
+}
+span {
+    font-size: 30px;
+}
+
+hr {
+    border-top: 2px solid black;
+    margin-top: 2px;
+}
+
+.container {
+
+    position: relative;
+   
+}

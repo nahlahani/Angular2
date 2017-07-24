@@ -1,0 +1,23 @@
+
+<p> Users List </p>
+
+<ul *ngFor="let user of users; let i=index" >
+  <li *ngIf="i < limit" > 
+    <a  routerLink = "/users/{{user.login}}">
+    {{user.login}} 
+  </a> 
+  </li>
+</ul>
+ 
+  <button type="button" class="btn btn-primary"
+  (click)= "loadMore()" > Load More ...</button>
+
+
+
+
+
+
+<div class="fml">
+
+<router-outlet></router-outlet>
+</div>

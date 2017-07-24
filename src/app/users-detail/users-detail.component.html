@@ -1,0 +1,7 @@
+<div *ngIf="user">
+  <p> <strong>name:</strong> {{user.name}}</p>
+  <img [src] = "user.avatar_url">
+  <h3> <strong> handle: </strong> {{user.login}}</h3>
+  <span> <strong> ID: </strong> {{user.id}}</span>
+  <h4> <strong> Joined: </strong> {{user.created_at | date: 'fullDate'}}</h4>
+</div>

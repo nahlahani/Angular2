@@ -1,0 +1,55 @@
+p {
+    margin-top:-20px;
+    margin-left: -190px;
+    font-size: 18px;
+    color: gray;
+}
+li {
+    margin-left:-180px;
+    font-size: 20px;
+    list-style-type: none;
+   
+}
+button {
+position:absolute;
+margin-top:10px;
+left:-140px;
+
+}
+div {
+    position: relative;
+    height: 9px;
+    width: 180px;
+}
+
+.userinfo{
+    position: absolute;
+    float:right;
+    top:1px;
+    left:700px;
+}
+
+.fml {
+    position: relative;
+    left: 700px;
+    top: -400px;
+}
+
+img {
+    position:absolute;
+    right:40px;
+}
+.location{
+    position: relative;
+    top:500px;
+}
+.date{
+    position: relative;
+    top:485px;
+    left: 240px;
+}
+.blog{
+    position: relative;
+    top:470px;
+    right:350px;
+}
